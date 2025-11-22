@@ -1,4 +1,4 @@
-name: PPrint message
+name: Print message
 on:
  push:
 
