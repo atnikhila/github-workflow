@@ -1,0 +1,15 @@
+name: CShow commit message
+on:
+ push:
+ branches: message
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+          - name: Checkout code
+            uses: actions/checkout@v5 
+            name: Print commit message
+            run: 
+                echo "Commit message"
+                echo "${{ github.event.head_commit.message }}"
