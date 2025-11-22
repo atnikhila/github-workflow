@@ -15,4 +15,4 @@ jobs:
             - name: Print commit message
               run: 
                 echo "Commit meesage"
-                echo "${{github.event.head_commit.meesage}}"
+                echo "${{github.event.head_commit.message}}"
