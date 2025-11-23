@@ -1,4 +1,4 @@
-name: CShow commit message
+name: Show commit message
 on:
  push:
  branches: message
